@@ -365,6 +365,9 @@ section .button button:hover {
   text-align: center;
   margin: auto;
 }
+.email{
+  color: #a8ae2a;
+}
 
 /* Footer CSS */
 footer {
@@ -399,6 +402,8 @@ footer .text span a:hover {
   display: none;
 }
 
+
+
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content {
@@ -424,7 +429,7 @@ footer .text span a:hover {
     width: calc(100% / 2 - 20px);
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .about .left img {
     height: 495px;
     width: 350px;
